@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Releway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777;
+}
+
+h1{
+    font-size: 36px;
+    color: #555;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    padding-top: 20px;
+}
+#team img{
+    margin-top: -50px;
+}
+
+
+#team p{
+    font-weight: 500;
+    text-align: justify;
+}
+
+#team .card{
+    border-radius: 0;
+    box-shadow: 5px 5px 15px #0e4286e7;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition:  all 0.3s ease-in;
+  
+    margin-bottom: 70px;
+    
+
+    
+}
+
+
+
+    
+
+    
+
+#team .card:hover{
+    background: #04507ced;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px #9E9E9E;
+
+}
+
+#team .card:hover h3, #team .card:hover i{
+    color: #fff;
+}
+/* es de la imagenes individual */
+.testi{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+}

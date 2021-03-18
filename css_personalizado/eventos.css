@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Releway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+
+h1{
+    font-size: 36px;
+    color: #555;
+    font-weight: bold;
+}
+
+
+
+
+#cuerpo p{
+    font-weight: 300;
+    text-align: justify;
+}
+
+#cuerpo .card{
+    border-radius: 0;
+    box-shadow: 5px 5px 15px #ccab18e7;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition:  all 0.3s ease-in;
+  
+    margin-bottom: 70px;
+    height: 500px;
+    width: 360px;
+    
+
+    
+}
+#cuerpo img{
+    height: 200px;
+}
+
+
+
+    
+
+    
+
+#cuerpo .card:hover{
+    background: #b9ae12ed;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px #9E9E9E;
+
+}
+
+#cuerpo .card:hover h3{
+    color: #fff;
+}
+/* es de la imagenes individual */
